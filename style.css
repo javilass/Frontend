@@ -1,0 +1,59 @@
+/* el * significa que aplica para todos los elementos
+cambiando los estilos por defecto del navegador */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: linen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container {
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #646C8F;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: linen;
+    border-bottom: 3px dashed black;
+}
+
+nav {
+    background-color: #F4E2DE;
+    color: #646C8F;
+    height: 50px;
+    line-height: 30px;
+    border: 1px solid black;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+/* el . crea una propiedad */
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    height: 500px;
+    background-color: #646C8F;
+}
+
+aside{
+    float: left;
+    width: 20%;
+}

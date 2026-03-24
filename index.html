@@ -1,21 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- charset indica el estándar de caracteres, ej: N, tíldes, etc -->
-    <meta charset="UTF-8"> 
-    <!-- viewport indica las dimensiones de la página y si es responsiva, por ejemplo -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- title indica el nombre de nuestra página en la pestaña del navegador -->
-    <title>Clase 17/03</title>
+    <title>Clase CSS - Javi</title>
+    <link rel="stylesheet" href="style.css"> 
+<!-- con link llamamos a la hoja de css, debemos href con el mismo nombre del archivo  -->
+
 </head>
-<!-- Dentro del body está toda la información visible dentro de nuestra página web -->
 <body>
-    <h1>Hola ૮ ྀིᴗ͈ . ᴗ͈ ྀིა</h1>    
-    <p>Hola, soy Javiera y tengo sueño</p>
-    <img src="https://imagenes.elpais.com/resizer/v2/4GFYMYJE5ZDWXGOEOYWI7XSIAQ.webp?auth=939bbdc075663f2fb475da43632698c9eb82ad785bba2edc8c09a60e67f7fc6e&width=414">
-    <br>
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&msockid=e9807a9b225511f185145681f14d15fd" target="_blank">Click aquí!</a>
+    <h1>Clase 24-01</h1>
+    <div id="container">
+        <header>
+            <h1>Clase CSS</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+        
+        <section id="content">
+            <article class="article">
+                <h2>Bienvenida a la clase de CSS</h2>
+                <p>En esta clase aprenderemos qué es CSS</p>
+            </article>
+            <article class="article">
+                <h2>Bienvenida a la clase de CSS</h2>
+                <p>En esta clase aprenderemos qué es CSS</p>
+            </article>
+            <article class="article">
+                <h2>Bienvenida a la clase de CSS</h2>
+                <p>En esta clase aprenderemos qué es CSS</p>
+            </article>
+        </section>
+        
+        <aside>
+            <h2>Contáctanos</h2>
+            <form action="">
+                <input type="text">
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+
+        <footer>
+            <p>creado por Javi.- 2026</p>
+        </footer>
+    
+    </div>   
 </body>
 </html>
 
