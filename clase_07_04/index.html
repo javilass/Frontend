@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Mi primera app con JavaScript</h1>
+
+    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+    <button onclick="saludar()">Saludar</button> <!--saludar() es una función para javascript-->
+
+    <p id="mensaje"></p> <!--el párrafo mensaje se va a ir modificando, ahora está vacío-->
+
+    <hr>
+
+    <button onclick="cambiarColor()">Cambiar color</button>
+
+    <div id="caja"></div>
+
+    <hr>
+
+    <button onclick="mostrarHora()">Ver hora</button>
+    <p id="hora"></p>
+
+    <script src="script.js"></script> <!-- le decimos a HTML que vamos a trabajar con un js llamado "script"-->
+</body>
+</html>
